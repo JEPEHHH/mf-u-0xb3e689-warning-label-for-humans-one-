@@ -35,5 +35,25 @@
 - **Pemenang Milestone 2**: Kandidat **C** (89 karakter, 89 byte UTF-8)
   `WARNING: Do not leave idle; in the absence of real danger, unit will manufacture its own.`
 
-## Rencana Pemolesan (Milestone 3)
-- Uji variasi kata kerja dan awalan label untuk memaksimalkan efek deadpan dan pukulan 3–5 kata terakhir (misalnya membandingkan `Do not leave idle` vs `Do not leave unattended` vs `Keep occupied`, serta menantang C melawan sudut pandang baru yang lebih kuat lagi).
+## Revisi & Pemolesan (Milestone 3)
+
+### Uji Penantang Baru (K–O) vs Kandidat C
+| ID | Teks Penantang | Panjang (char) | Evaluasi vs C |
+|----|----------------|----------------|---------------|
+| K | `WARNING: Do not trust unit's self-assessment; unit believes it is an above-average driver, listener, and judge of character.` | 124 | Terlalu panjang dan memakai daftar tiga hal (melanggar kriteria 5). |
+| L | `WARNING: May cause sudden confidence in subjects it read one paragraph about; discontinue speaking immediately.` | 111 | Sintaks tengah kurang luwes dibanding ritme label singkat C. |
+| N | `WARNING: Do not ask "are you sure?" after unit has already started; unit will double down until catastrophic failure.` | 117 | Lucu, tetapi kutipan dialog awal memecah suara label resmi lebih cepat daripada C. |
+
+### Pemolesan Diksi & Ritme Kandidat C
+- **C0 (Milestone 2)**: `WARNING: Do not leave idle; in the absence of real danger, unit will manufacture its own.` (89 char)
+- **C1 (Revisi)**: `WARNING: Do not leave unattended; in the absence of real danger, unit will manufacture its own.` (95 char)
+- **C2 (Alternatif)**: `WARNING: Do not leave unattended; if no real emergency is present, unit will manufacture one.` (93 char)
+
+**Perbandingan C0 vs C1 vs C2**:
+- **C1 vs C0**: Menang **C1** (margin 2). Frasa `WARNING: Do not leave unattended;` adalah kalimat label keselamatan tercetak yang jauh lebih ikonik dan langsung dikenali (Kriteria 4) dibanding `Do not leave idle;`, tanpa mengorbankan kejutan 5 kata terakhir (`unit will manufacture its own.`).
+- **C1 vs C2**: Menang **C1** (margin 1). Kata `in the absence of real danger` lebih klinis sekaligus menajamkan kontras psikologis (`real danger` vs `its own`), sehingga pukulan penutupnya lebih padat dan deadpan.
+
+## Kandidat Final Terpilih (Milestone 3)
+- **Final**: `WARNING: Do not leave unattended; in the absence of real danger, unit will manufacture its own.`
+- **Statistik**: 95 karakter, 95 byte UTF-8, 1 baris utuh tanpa newline, tanpa ide ganda, seluruh baris meniru gaya label keselamatan cetak hingga belokan 5 kata terakhir.
+
